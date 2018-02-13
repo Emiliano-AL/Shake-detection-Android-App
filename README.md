@@ -1,4 +1,4 @@
-# Shake detection 
+# Shake detection Android Application
 
 This is an Android project that detect the road bumps and shakes using the accelerometer in the phone .
 
@@ -19,7 +19,7 @@ Finally the Stop button will stop the application ; so it stops doing any shake 
 
 You will need to modify the AndroidManifest and add the privileges manifest in order to use the accelerometer , you can find the manifest file in the following path /app/src/main/AndroidManifest.xml .
 However the accelerometer permission manifest is :     
-" <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" /> "
+![Manifest Code](Screenshot_3.png)
 
 If you want to change the threshold value for the shake detection you can go to the onSensorChanged method ,and change the "if (accel > 5)" to whatever value you want .
 
