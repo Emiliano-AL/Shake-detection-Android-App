@@ -4,4 +4,6 @@ This is an Android project that detect the road bumps and shakes using the accel
 
 ## Getting Started
 
-The main code for this application can be found in the following path 
+The main code for this application can be found in the following path /app/src/main/java/com/example/zekkes/jordanstreetsinnutshell/MainActivity.java
+
+Take a note that you will also need to modify the AndroidManifest and add the privileges in order to use the accelerometer , you can find the manifest file in the following path 
