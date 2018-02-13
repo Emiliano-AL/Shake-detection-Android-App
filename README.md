@@ -4,7 +4,7 @@ This is an Android project that detect the road bumps and shakes using the accel
 
 ## Getting Started
 
-This application is one of the many projects i built for the Android course that i took in the university , i enjoyed building each of these projects thanks to the amazing doctor that gave us this course .
+This application is one of the many projects i built for the Android course that i took in the university , i enjoyed building each one of these projects thanks to the amazing doctor that gave us this course .
 
 The main code for this application can be found in the following path /app/src/main/java/com/example/zekkes/jordanstreetsinnutshell/MainActivity.java
 
