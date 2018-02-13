@@ -20,6 +20,8 @@ You will need to modify the AndroidManifest and add the privileges manifest in o
 However for the accelerometer permission is :     
 <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
 
+If you want to change the threshold value for the shake detection you can go to the onSensorChanged method ,and change the "if (accel > 5)" to whatever value you want .
+
 
 
 
