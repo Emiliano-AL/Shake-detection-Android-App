@@ -12,13 +12,14 @@ For the UI , i designed a quick GUI with the following components
 
 ![Application GUI](Screenshot_2.png)
 
-Once you hit Start the application will start running viewing how many shake or road bumps did it detect for now on the counter label , the Reset button will reset the counter to 0 which means that it didn't detect any shakes yet , Finally the Stop button will stop the application ; so it stops doing any shake detection , freezing the counter label at the value it reached
+Once you hit Start the application will start running viewing how many shake or road bumps did it detect for now on the counter label , the Reset button will reset the counter to 0 which means that it didn't detect any shakes yet .
+Finally the Stop button will stop the application ; so it stops doing any shake detection , freezing the counter label at the value it reached
 
 ### Prerequisites
 
 You will need to modify the AndroidManifest and add the privileges manifest in order to use the accelerometer , you can find the manifest file in the following path /app/src/main/AndroidManifest.xml .
-However for the accelerometer permission is :     
-<uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
+However the accelerometer permission manifest is :     
+" <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" /> "
 
 If you want to change the threshold value for the shake detection you can go to the onSensorChanged method ,and change the "if (accel > 5)" to whatever value you want .
 
